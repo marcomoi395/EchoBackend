@@ -4,7 +4,7 @@ const {handleLogin, handleLogout, handleRegister, handleRefresh} = require('../c
 
 router.post('/login', handleLogin)
 
-router.post('/register', handleRegister);
+// router.post('/register', handleRegister);
 
 router.post('/logout', handleLogout)
 
